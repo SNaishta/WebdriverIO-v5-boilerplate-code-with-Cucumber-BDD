@@ -1,0 +1,42 @@
+{
+  "name": "webdriverioframework",
+  "version": "1.0.0",
+  "description": "Webdriverio framework ",
+  "main": "index.js",
+  "scripts": {
+    "selenium-server": "./node_modules/.bin/selenium-standalone install && ./node_modules/.bin/selenium-standalone start",
+    "test": "./node_modules/.bin/wdio test/config/wdio.conf.js"
+  },
+  "author": "Sushmita Talgeri",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.14.5",
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/selenium-standalone-service": "^6.12.1",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^92.0.1",
+    "cucumber": "^6.0.5",
+    "selenium-standalone": "^6.17.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@wdio/cucumber-framework": "^6.11.1",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "core-js": "^2.5.7",
+    "cucumber-tag-expressions": "^2.0.3",
+    "moment": "^2.29.1",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "regenerator-runtime": "^0.13.9",
+    "wdio-cucumberjs-json-reporter": "^2.0.4",
+    "webdriverio": "^7.9.0"
+  }
+}
